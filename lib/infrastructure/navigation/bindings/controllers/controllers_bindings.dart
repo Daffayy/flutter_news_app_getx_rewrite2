@@ -1,0 +1,1 @@
+export 'package:flutter_news_app_getx_rewrite2/infrastructure/navigation/bindings/controllers/home.controller.binding.dart'; 
