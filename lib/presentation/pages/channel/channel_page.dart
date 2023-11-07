@@ -27,7 +27,7 @@ class ChannelPage extends GetView<ChannelController>{
             : Swiper(
           itemCount: controller.sourceAppModel.sources!.length,
           itemBuilder: (BuildContext context, int itemIndex) {
-            // final source = controller.sourceAppModel.sources![itemIndex];
+            final source = controller.sourceAppModel.sources![itemIndex];
             return Padding(
               padding: EdgeInsets.only(left: 50,right: 50,top: 150,bottom:
               150),

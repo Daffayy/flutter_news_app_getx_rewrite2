@@ -8,7 +8,7 @@ import '../../controller/search/search_controller.dart';
 import '../../widget/search/no_item_view.dart';
 import '../news/news_page.dart';
 
-class SearchPage extends GetView<SearchController>{
+class SearchPage extends GetView<MySearchController>{
   @override
   Widget build(BuildContext context) {
     return Scaffold(

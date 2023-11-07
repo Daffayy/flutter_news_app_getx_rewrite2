@@ -4,13 +4,13 @@ import 'package:get/get.dart';
 import '../../../domain/entities/news_app_model.dart';
 import '../../../domain/use_case/search/search_use_case.dart';
 
-class SearchController extends GetxController{
+class MySearchController extends GetxController{
   ScrollController scrollController = ScrollController();
   final SearchUseCase _searchUseCase;
   RxBool isLoading = false.obs;
   RxList<Article> searchNewsItem = <Article>[].obs;
 
-  SearchController(this._searchUseCase);
+  MySearchController(this._searchUseCase);
 
   Future<void> getSearchNews({required String searchFood}) async {
     isLoading.toggle();

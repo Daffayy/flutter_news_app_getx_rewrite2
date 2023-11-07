@@ -14,6 +14,7 @@ dependencies:
   webview_flutter: ^2.1.1
   cached_network_image: ^3.2.3
   skeletons: ^0.0.3
+  flutter_launcher_icons: ^0.13.1
   flutter: 
     sdk: flutter
 
@@ -21,6 +22,13 @@ dev_dependencies:
   flutter_lints: 2.0.1
   flutter_test: 
     sdk: flutter
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21 
+  
 
 flutter:
   assets:

@@ -15,8 +15,8 @@ class SearchBinding extends Bindings{
             () => SearchRepositoryImpl(Get.find<RemoteNewsDataSource>()));
     Get.lazyPut<SearchUseCase>(
             () => SearchUseCase(repository: Get.find<SearchRepository>()));
-    Get.lazyPut<SearchController>(
-            () => SearchController(
+    Get.lazyPut<MySearchController>(
+            () => MySearchController(
             Get.find<SearchUseCase>()
         ));
   }
